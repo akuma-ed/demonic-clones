@@ -4,8 +4,28 @@
 	padding: 0;
 }
 html{
-	font-size: 62.2%;
+	font-size: 6.25%;
 }
 body{
 	font-size: 12rem;
+}
+
+/*--- Header ---*/
+header{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+header .header-logo{
+	margin-bottom: 5rem;
+}
+
+header .header-logo img{
+	width: 200px;
+}
+
+header .header-slogan{
+	font-size: 15rem;
 }
