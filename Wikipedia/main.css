@@ -27,5 +27,61 @@ header .header-logo img{
 }
 
 header .header-slogan{
+	font-family: Cambria, 'Cambria', serif;
 	font-size: 15rem;
+}
+
+/*--- Main ---*/
+main{
+	margin-top: 10px;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wikipedia_logo_v3.svg/1024px-Wikipedia_logo_v3.svg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200px;
+}
+
+
+main .main-idiom{
+	height: 320px;
+	font-size: 14rem;
+	font-family: Verdana;
+	
+}
+
+main .main-idiom .main-idiom-part{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.main-idiom .main-idiom-part .lang1{
+	margin: 10px 70px;
+}
+.main-idiom .main-idiom-part .lang2{
+	margin: 10px 120px;
+}
+.main-idiom .main-idiom-part .lang3{
+	margin: 10px 140px;
+}
+.main-idiom .main-idiom-part .lang4{
+	margin: 10px 120px;
+}
+.main-idiom .main-idiom-part .lang5{
+	margin: 10px 70px;
+}
+
+.main-idiom-part div a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #36c;
+}
+.main-idiom-part div a:hover{
+	text-decoration: underline;
+}
+
+.main-idiom-part div p{
+	font-size: 12rem;
+	color: grey;
+	margin-top: 5px;
 }
