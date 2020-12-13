@@ -34,14 +34,15 @@ header .header-slogan{
 /*--- Main ---*/
 main{
 	margin-top: 10px;
-	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wikipedia_logo_v3.svg/1024px-Wikipedia_logo_v3.svg.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 200px;
+	
 }
 
 
 main .main-idiom{
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wikipedia_logo_v3.svg/1024px-Wikipedia_logo_v3.svg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200px;
 	height: 320px;
 	font-size: 14rem;
 	font-family: Verdana;
@@ -88,7 +89,7 @@ main .main-idiom .main-idiom-part{
 
 
 .main-search{
-	width: 500px;
+	width: 450px;
 	height: 50px;
 	margin: 0 auto;
 	margin-top: 10px;
@@ -104,21 +105,37 @@ main .main-idiom .main-idiom-part{
 	justify-content: center;
 }
 .main-search-container:hover{
-	border: 1px solid #555;
+	border: 2px solid #36c;
+}
+.main-search-container:focus{
+	outline: 1px solid #36c;
 }
 
 .main-search .main-search-container .search-input{
-	width: 400px;
-	height: 45px;
+	width: 310px;
+	height: 40px;
 	border: none;
 	margin-left: 10px;
+	font-size: 16rem;
 }
 .main-search .main-search-container .search-input:focus{
 	outline: none;
 }
 
 .main-search .main-search-container .list-lang-input{
-	width: 40px;
+	width: 80px;
+	height: 20px;
+	margin-right: 10px;
+	font-family: "Helvetica","Roboto";
+	border: none;
+	background-color: #F0F0F0;
+	text-align: center;
+}
+.main-search .main-search-container .list-lang-input:focus{
+	outline: none;
+}
+.main-search .main-search-container .list-lang-input:hover{
+	cursor: pointer;
 }
 
 .main-search .main-search-container .search-button{
@@ -128,5 +145,13 @@ main .main-idiom .main-idiom-part{
 	background-position: center;
 	width: 50px;
 	height: 50px;
-	background-color: blue;
+	background-color: #36c;
+	border: none;
+	border-radius: 0;
+}
+.main-search .main-search-container .search-button:focus{
+	outline: none;
+}
+.main-search .main-search-container .search-button:hover{
+	cursor: pointer;
 }
