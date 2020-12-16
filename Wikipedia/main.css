@@ -155,3 +155,64 @@ main .main-idiom .main-idiom-part{
 .main-search .main-search-container .search-button:hover{
 	cursor: pointer;
 }
+
+
+.main-read{
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-read .read-lines:before{
+	content: "";
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	background: grey;
+	position: relative;
+	left: -5%;
+	top: 70%;
+}
+.main-read .read-lines:after{
+	content: "";
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	background: grey;
+	position: relative;
+	right: -5%;
+	top: 70%;
+}
+
+.main-read .read-button{
+	border: 1px solid grey;
+	height: 40px;
+	width: 260px;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12rem;
+	color: #36c;
+	background-color: #FAFAFA;
+	align-items: center;
+}
+.main-read .read-button:hover{
+	background-color: white;
+	cursor: pointer;
+}
+
+.main-read .read-button .read-button-image{
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/OOjs_UI_icon_language-ltr.svg/1200px-OOjs_UI_icon_language-ltr.svg.png');
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: center;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.main-read .read-button span{
+	margin-right: 10px;
+}
