@@ -10,6 +10,14 @@ body{
 	font-size: 12rem;
 }
 
+a{
+	text-decoration: none;
+	color: #36c;
+}
+a:hover{
+	text-decoration: underline;
+}
+
 /*--- Header ---*/
 header{
 	width: 100%;
@@ -74,11 +82,6 @@ main .main-idiom .main-idiom-part{
 
 .main-idiom-part div a{
 	font-weight: bold;
-	text-decoration: none;
-	color: #36c;
-}
-.main-idiom-part div a:hover{
-	text-decoration: underline;
 }
 
 .main-idiom-part div p{
@@ -169,7 +172,7 @@ main .main-idiom .main-idiom-part{
 	display: inline-block;
 	width: 80px;
 	height: 1px;
-	background: grey;
+	background: #C9C9C9;
 	position: relative;
 	left: -5%;
 	top: 70%;
@@ -179,7 +182,7 @@ main .main-idiom .main-idiom-part{
 	display: inline-block;
 	width: 80px;
 	height: 1px;
-	background: grey;
+	background: #C9C9C9;
 	position: relative;
 	right: -5%;
 	top: 70%;
@@ -215,4 +218,20 @@ main .main-idiom .main-idiom-part{
 
 .main-read .read-button span{
 	margin-right: 10px;
+}
+
+
+/*--- Footer ---*/
+footer{
+	margin-top: 30px;
+	display: inline-block;
+	font-size: 13rem;
+	font-family: Helvetica;
+	width: 98vw;
+}
+
+footer hr{
+	border-top: 1px solid #C9C9C9;
+	width: 98%;
+	margin-left: 1%;
 }
